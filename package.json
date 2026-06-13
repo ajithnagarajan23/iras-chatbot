@@ -1,0 +1,20 @@
+{
+  "name": "iras-chatbot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "scrape": "node ingest/scrape.js",
+    "index": "node ingest/index.js",
+    "start": "node api/main.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.98.0",
+    "@mendable/firecrawl-js": "^1.9.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "twilio": "^6.0.2"
+  },
+  "devDependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

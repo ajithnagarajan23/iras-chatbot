@@ -1,0 +1,6 @@
+.env
+node_modules/
+ngrok.exe
+cloudflared.exe
+ngrok.zip
+data/chroma_db/

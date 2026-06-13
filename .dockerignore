@@ -1,0 +1,8 @@
+.env
+.env.example
+ngrok.exe
+ngrok.zip
+cloudflared.exe
+node_modules
+*.md
+ingest/
