@@ -21,7 +21,7 @@ export async function answer(question, history = []) {
   // Step 3: call Claude
   const response = await client.messages.create({
     model:      MODEL,
-    max_tokens: 150,
+    max_tokens: 350,
     system: [{ type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } }],
     messages,
   });
